@@ -1,7 +1,5 @@
 # Cinephile
 
-[![Android CI](https://github.com/rp-projects-devs/cinephile/actions/workflows/android.yml/badge.svg)](https://github.com/rp-projects-devs/cinephile/actions/workflows/android.yml)
-
 **Application Android en Kotlin pour explorer des films, les organiser en watchlists, jouer à des quiz générés automatiquement et recevoir des recommandations personnalisées.** Les données viennent de l'API [TMDB](https://www.themoviedb.org/) ; les notes, favoris, watchlists et quiz sont conservés sur le téléphone.
 
 <p align="center">
