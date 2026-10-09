@@ -1,0 +1,5 @@
+# Copier ce fichier en "local.properties" (il est ignore par Git) puis renseigner la cle.
+# Cle gratuite : https://www.themoviedb.org/settings/api
+TMDB_API_KEY=votre_cle_api_tmdb
+
+# Android Studio ajoute automatiquement la ligne sdk.dir a l'ouverture du projet.

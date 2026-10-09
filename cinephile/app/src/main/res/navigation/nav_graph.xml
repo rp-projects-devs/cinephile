@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/searchFragment">
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.cinephile.ui.search.SearchFragment"
+        android:label="@string/nav_search" />
+
+    <fragment
+        android:id="@+id/movieDetailsFragment"
+        android:name="com.cinephile.ui.details.MovieDetailsFragment"
+        android:label="@string/movie_details_screen_title">
+
+        <argument
+            android:name="movieId"
+            app:argType="integer"
+            android:defaultValue="-1" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/watchlistsFragment"
+        android:name="com.cinephile.ui.watchlist.WatchlistFragment"
+        android:label="@string/nav_watchlists" />
+
+    <fragment
+        android:id="@+id/watchlistDetailFragment"
+        android:name="com.cinephile.ui.watchlist.WatchlistDetailFragment"
+        android:label="@string/watchlist_details_screen_title" />
+
+    <fragment
+        android:id="@+id/quizListFragment"
+        android:name="com.cinephile.ui.quiz.QuizListFragment"
+        android:label="@string/nav_quiz" />
+
+    <fragment
+        android:id="@+id/quizDetailFragment"
+        android:name="com.cinephile.ui.quiz.QuizDetailFragment"
+        android:label="@string/quiz_details_screen_title" />
+
+    <fragment
+        android:id="@+id/quizPlayFragment"
+        android:name="com.cinephile.ui.quiz.QuizPlayFragment"
+        android:label="@string/quiz_play_screen_title" />
+
+    <fragment
+        android:id="@+id/recommendationsFragment"
+        android:name="com.cinephile.ui.recommendation.RecommendationsFragment"
+        android:label="@string/nav_recommendations" />
+
+</navigation>

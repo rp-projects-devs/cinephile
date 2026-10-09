@@ -1,0 +1,20 @@
+# Gradle et Android Studio
+.gradle/
+.kotlin/
+build/
+/captures
+.externalNativeBuild
+.cxx
+*.iml
+.idea/
+
+# Configuration locale : contient le chemin du SDK et la cle TMDB
+local.properties
+
+# Divers
+*.apk
+*.aab
+*.keystore
+*.jks
+.DS_Store
+Thumbs.db

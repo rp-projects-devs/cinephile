@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Cinephile</string>
+
+    <string name="nav_search">Recherche</string>
+    <string name="nav_watchlists">Watchlists</string>
+    <string name="nav_quiz">Quiz</string>
+    <string name="nav_recommendations">Recommandations</string>
+
+    <string name="movie_details_screen_title">Détails du film</string>
+    <string name="watchlist_details_screen_title">Détails de la watchlist</string>
+    <string name="quiz_details_screen_title">Détails du quiz</string>
+    <string name="quiz_play_screen_title">Jouer au quiz</string>
+    <string name="recommendations_screen_title">Recommandations</string>
+
+    <string name="search_title_hint">Titre du film</string>
+    <string name="search_year_hint">Année de sortie, ex : 1999</string>
+    <string name="search_director_hint">Réalisateur, ex : Christopher Nolan</string>
+    <string name="search_actor_hint">Acteur ou actrice, ex : Leonardo DiCaprio</string>
+    <string name="search_genre_hint">Genre, ex : Action, Drame, Science-Fiction</string>
+    <string name="search_button">Rechercher</string>
+
+    <string name="search_intro_message">Recherche un film par titre, année, réalisateur, acteur ou genre.</string>
+    <string name="search_loading_message">Recherche en cours...</string>
+    <string name="search_empty_message">Aucun film trouvé avec ces critères.</string>
+
+    <string name="movie_title_placeholder">Titre du film</string>
+    <string name="movie_director_unknown">Réalisateur inconnu</string>
+    <string name="movie_release_date_unknown">Date inconnue</string>
+    <string name="movie_poster_content_description">Poster du film</string>
+
+    <string name="recommendations_explanation">Ces recommandations sont calculées avec notre propre algorithme, à partir de tes films favoris et de tes notes.</string>
+    <string name="recommendations_refresh_button">Recalculer les recommandations</string>
+    <string name="recommendations_initial_message">Note ou ajoute quelques films en favoris pour obtenir des recommandations personnalisées.</string>
+    <string name="recommendations_loading_message">Calcul des recommandations en cours...</string>
+    <string name="recommendations_empty_message">Pas encore assez de données. Note au moins un film avec 3.5 étoiles ou plus, ou ajoute un film en favori.</string>
+    <string name="recommendations_long_click_message">"%1$s" est une recommandation. Ouvre le détail pour le noter ou l\'ajouter aux favoris.</string>
+    <string name="recommendations_refresh_button_short">Recalculer</string>
+</resources>
